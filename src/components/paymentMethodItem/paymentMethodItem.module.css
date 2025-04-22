@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  width: 18rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.activeCard {
+  border-color: #4caf50;
+  background-color: #f6fff6;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-wrap: break-word;
+}
+
+.issuer {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.cardNumber {
+  font-size: 1rem;
+  color: #555;
+}
+
+.expiry {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.setActiveButton {
+  background-color: #4caf50;
+}
+
+.setActiveButton:hover {
+  background-color: #3c973f;
+}
+
+.deleteButton {
+  background-color: #e7483d;
+}
+
+.deleteButton:hover {
+  background-color: #c62b20;
+}

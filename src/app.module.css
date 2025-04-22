@@ -1,0 +1,6 @@
+.page {
+  padding: 2rem;
+  margin: auto;
+  min-width: min-content;
+  max-width: 40rem;
+}

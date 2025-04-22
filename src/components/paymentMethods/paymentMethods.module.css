@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

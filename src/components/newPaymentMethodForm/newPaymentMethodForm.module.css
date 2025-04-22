@@ -1,0 +1,67 @@
+.addButton {
+  font-size: 1rem;
+}
+
+.addButton:hover {
+  background-color: #003852;
+}
+
+.form {
+  max-width: 16rem;
+  padding: 1.25rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #616161;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.input:focus {
+  border-color: #003852;
+  outline: none;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.submitButton {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #003852;
+}
+
+.cancelButton {
+  flex: 1;
+  font-size: 1rem;
+  background-color: #7c7c7c;
+}
+
+.cancelButton:hover {
+  background-color: #515151;
+}
+
+.errorMessage {
+  color: #e7483d;
+}

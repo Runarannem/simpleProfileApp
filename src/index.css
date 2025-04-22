@@ -1,0 +1,21 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  font-weight: 500;
+}
+
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  border: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  background-color: #005379;
+  color: white;
+  padding: 0.8rem;
+  text-transform: uppercase;
+}
+
+* {
+  border-radius: 0.25rem;
+}
