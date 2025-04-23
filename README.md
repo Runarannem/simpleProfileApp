@@ -1,4 +1,4 @@
-# Simple Profile App
+# Simple Payment Methods App
 
 This is a simple app for managing payment methods. It allows user to add, view, activate, and delete payment methods. The app is designed as part of a case interview project.
 
@@ -48,9 +48,8 @@ simpleProfileApp/
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd simpleProfileApp
-  
+   git clone https://github.com/Runarannem/simpleProfileApp.git
+   ```
 2. Install dependencies:
    ```sh
    npm install
@@ -78,11 +77,11 @@ simpleProfileApp/
 - Implement better error handling for API requests.
 
 Specific features I would have implemented if I had more time:
-- Should have functionality to ensure at least one card is activated at all times, for example set the last added card as activated instead.
+- Should have functionality to ensure at least one card is activated at all times, for example set the last added card as activated instead (if this makes sense for the use).
 - Loading indicators to make it easier for the user to follow what happens when, also hindering clicking more than needed and calling the api unnecessary.
 - More accurate/specific validations as well as feedback for the validations.
 - More effective type handling, such as id possibly being undefined.
-- Small stuff such as the user not having to write "/" for expiry date or being able to have space when writing card number.
-- Take "currency" into consideration (or remove from API), now this is by default NOK.
+- Small stuff such as the user not having to write "/" for expiry date.
+- Take "currency" into consideration (or remove from API), now this is by default NOK. Also it would make sense to add "Card Holder".
 - Look more into credit card validation.
 - Consider using react-hook-form or something like it instead of manually handling validations, errors and so, as it would simplify my code. No clue why I did not do this is the first place.
