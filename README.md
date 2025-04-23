@@ -77,6 +77,7 @@ simpleProfileApp/
 - Implement better error handling for API requests.
 
 Specific features I would have implemented if I had more time:
+- Clear feedback to the user, when for example deleting and adding cards.
 - Should have functionality to ensure at least one card is activated at all times, for example set the last added card as activated instead (if this makes sense for the use).
 - Loading indicators to make it easier for the user to follow what happens when, also hindering clicking more than needed and calling the api unnecessary.
 - More accurate/specific validations as well as feedback for the validations.
